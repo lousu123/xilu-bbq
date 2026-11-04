@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>喜炉烤肉 · 全案运营方案</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;background:#2b1a12;padding:0 0 48px;color:#3a2b1a}
+.top-bar{background:linear-gradient(160deg,#2b1a12,#4a2c1a);padding:24px 20px 20px;text-align:center}
+.top-bar .mini{font-size:11px;color:#e8b87a;letter-spacing:2px;margin-bottom:6px}
+.top-bar h1{font-size:22px;font-weight:800;color:#fff;letter-spacing:.5px;line-height:1.4}
+.top-bar .sub-line{font-size:13px;color:#e8b87a;margin-top:6px}
+.top-bar .tagline{display:inline-block;margin-top:10px;background:rgba(255,255,255,0.12);border:1px solid #e8b87a;color:#e8b87a;font-size:12px;padding:4px 14px;border-radius:20px;letter-spacing:.5px}
+.container{max-width:430px;margin:0 auto;background:#fdfaf5;border-radius:20px 20px 0 0;padding:20px 16px 28px;margin-top:-14px}
+.card{background:#f9f1e6;border-radius:14px;padding:16px;margin-bottom:12px;border:1px solid #e8d5bd}
+.card .chapter{display:flex;align-items:flex-start;gap:8px;margin-bottom:10px}
+.card .chapter .no{display:inline-flex;align-items:center;justify-content:center;background:#4a2c1a;color:#fff;min-width:26px;height:26px;border-radius:50%;font-size:13px;font-weight:700;flex-shrink:0;margin-top:2px}
+.card .chapter .t{font-size:15.5px;font-weight:700;color:#2b1a12;line-height:1.4}
+.card p{font-size:14px;line-height:1.8;color:#4a3a2c;margin-bottom:6px}
+.card ul{padding-left:18px;line-height:1.9;font-size:14px;color:#4a3a2c}
+.card ul li{margin-bottom:4px}
+.card b,.card strong{color:#a0522d}
+.info-box{background:linear-gradient(135deg,#2b1a12,#4a2c1a);border-radius:14px;padding:16px;margin-bottom:12px;color:#fff}
+.info-box p{font-size:13.5px;line-height:1.75;color:#faf0e4;margin-bottom:4px}
+.info-box b{color:#e8b87a}
+.hl{background:#fdf6e3;border-left:3px solid #c9a227;padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0;font-size:13.5px;line-height:1.8;color:#5a4632}
+.hl b{color:#a0522d}
+.warn{background:#fdece8;border-left:3px solid #c0392b;padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0;font-size:13.5px;line-height:1.8;color:#7a3a30}
+.warn b{color:#c0392b}
+.good{background:#eaf5ea;border-left:3px solid #2d7a4f;padding:8px 12px;border-radius:0 8px 8px 0;margin:8px 0;font-size:13.5px;line-height:1.8;color:#2d5a3f}
+.good b{color:#2d7a4f}
+.price-grid{display:grid;gap:8px;margin:8px 0}
+.price-row{display:flex;justify-content:space-between;align-items:center;background:#f0e0cd;border-radius:10px;padding:10px 14px;font-size:13.5px}
+.price-row .name{font-weight:600;color:#2b1a12}
+.price-row .price{font-weight:800;color:#a0522d}
+.price-row .old{font-size:12px;color:#a89880;text-decoration:line-through;margin-left:4px;font-weight:400}
+.timeline{border-left:2px solid #ddc8ad;padding-left:14px;margin:8px 0}
+.timeline .tl-item{position:relative;margin-bottom:10px}
+.timeline .tl-item .dot{position:absolute;left:-19px;top:6px;width:8px;height:8px;border-radius:50%;background:#c9a227}
+.timeline .tl-item .time{font-size:13px;font-weight:700;color:#a0522d}
+.timeline .tl-item .desc{font-size:13.5px;line-height:1.75;color:#4a3a2c}
+.table-wrap{overflow-x:auto;margin:8px 0}
+table{width:100%;border-collapse:collapse;font-size:13px}
+th,td{padding:8px 10px;text-align:left;border-bottom:1px solid #e8d5bd;vertical-align:top}
+th{background:#f0e0cd;font-weight:700;color:#2b1a12}
+td{color:#4a3a2c;line-height:1.6}
+.final-card{background:linear-gradient(135deg,#2b1a12,#4a2c1a);border-radius:16px;padding:18px;text-align:center;margin-top:14px}
+.final-card p{color:#fff;font-size:15px;font-weight:700;line-height:1.7;letter-spacing:.3px}
+.final-card .sub{color:#e8b87a;font-size:12.5px;margin-top:6px}
+.sign{font-size:11px;color:#b8a894;text-align:center;margin-top:16px;line-height:1.7}
+</style>
+</head>
+<body>
+
+<div class="top-bar">
+<div class="mini">全案运营方案 · 完整版</div>
+<h1>喜炉烤肉</h1>
+<div class="sub-line">生态城 · 北塘街道 · 齐齐哈尔炭火烤肉</div>
+<div class="tagline">杭州排队店老板 · 回天津重开一局</div>
+</div>
+
+<div class="container">
+
+<div class="info-box">
+<p><b>店名：</b>喜炉烤肉（生态城融合烤肉）</p>
+<p><b>位置：</b>天津滨海生态城 · 北塘街道</p>
+<p><b>面积：</b>100平米（杭州原店200平米）</p>
+<p><b>品类：</b>齐齐哈尔炭火烤肉（桌烤，非烤串）</p>
+<p><b>老板背景：</b>杭州「583伍捌叁工厂·齐齐哈尔炭火烤肉」元巢科创园店，做了1年，因二房东原因关店</p>
+<p><b>核心优势：</b>口味过硬，杭州店几乎无差评，达人主动探店</p>
+</div>
+
+<!-- 一 -->
+<div class="card">
+<div class="chapter"><span class="no">1</span><span class="t">先看清：你手里有什么牌</span></div>
+<p><strong>杭州那家店，是真的做起来了。</strong></p>
+<p>我查了原店数据：大众点评上<b>74 道菜被网友推荐</b>，「齐齐哈尔秘制拌肉」<b>106 人推荐</b>，「雪花胸口」50人推荐，「肥牛酸菜」40人推荐。这个推荐量说明——<b>不是靠刷的，是真实复购客一点点堆出来的</b>。</p>
+<div class="good"><b>这是你最硬的底牌：</b>一家开了1年、因房东原因被迫关门的店，能在点评上攒下74道推荐菜，说明出品和口碑都站得住。这不是自夸，是平台数据。</div>
+<p style="margin-top:8px"><strong>但天津这边，是从零开始。</strong></p>
+<p>杭州的口碑带不过来——不同城市、不同门店ID、不同客群。喜炉现在点评上是「尚未营业」，0评价0评分。<b>这不是劣势，是正常的重新开局。</b></p>
+<p style="margin-top:6px"><strong>三张牌，怎么打：</strong></p>
+<table>
+<tr><th>牌</th><th>怎么用</th></tr>
+<tr><td>杭州口碑</td><td>做成「信任状」，不是「吹牛」——用原店数据说话</td></tr>
+<tr><td>口味自信</td><td>做成「试吃转化」——让人先尝到，再谈复购</td></tr>
+<tr><td>100平小店</td><td>做成「高翻台+预订制」，不跟大店拼桌数</td></tr>
+</table>
+</div>
+
+<!-- 二 -->
+<div class="card">
+<div class="chapter"><span class="no">2</span><span class="t">杭州 vs 天津：不是退步，是换赛道</span></div>
+<p>老板最担心的是「200平变100平，人群位置也不一样」。这个担心要正面拆开看：</p>
+<table>
+<tr><th>维度</th><th>杭州（元巢科创园）</th><th>天津（生态城北塘）</th></tr>
+<tr><td>客群</td><td>高教园学生+科技园白领</td><td>社区居民+度假区家庭客</td></tr>
+<tr><td>客单</td><td>偏低（学生多）</td><td><b>能做高（家庭聚餐）</b></td></tr>
+<tr><td>消费时长</td><td>短平快，翻台快</td><td>吃得久，翻台慢</td></tr>
+<tr><td>面积</td><td>200平，桌多</td><td>100平，桌少</td></tr>
+<tr><td>打法</td><td>拼翻台、拼量</td><td><b>拼客单、拼预订</b></td></tr>
+</table>
+<div class="hl"><b>结论：</b>杭州是「量」的生意，天津是「质」的生意。100平桌数少，硬拼翻台拼不过大店，但<b>家庭客客单价高、愿意提前预订、复购稳定</b>——这才是喜炉该走的路。</div>
+<p style="margin-top:6px"><strong>具体怎么转：</strong></p>
+<ul>
+<li><b>客单价从60-80拉到100-120</b>：靠套餐组合（不是涨价，是加值）；</li>
+<li><b>翻台靠预订</b>：晚市高峰提前订位，减少空桌等待；</li>
+<li><b>桌型优化</b>：100平优先放4人桌（家庭客主力），少放2人桌。</li>
+</ul>
+</div>
+
+<!-- 三 -->
+<div class="card">
+<div class="chapter"><span class="no">3</span><span class="t">竞对分析：这个区域没有对手</span></div>
+<p>我把生态城北塘、和风路、和畅路一带的烧烤类门店扒了一遍：</p>
+<table>
+<tr><th>店名</th><th>位置</th><th>品类</th></tr>
+<tr><td>极木烧烤（生态城店）</td><td>和风路宜禾汇521号</td><td>烤串</td></tr>
+<tr><td>丽伟の串（季景天地店）</td><td>和风路宜禾天地</td><td>烤串</td></tr>
+<tr><td>80后街边烧烤</td><td>生态城二社区馨香园</td><td>烤串</td></tr>
+<tr><td>必小厨串</td><td>和韵路</td><td>烤串</td></tr>
+</table>
+<div class="good"><b>关键发现：周边全是「烤串店」，没有一家做「炭火桌烤」。</b><br>喜炉的齐齐哈尔炭火烤肉，在这个区域是<b>品类空白</b>——围炉自己烤、家庭聚餐、吃得久，跟撸串是完全不同的场景。</div>
+<p style="margin-top:8px"><strong>差异化一句话：</b></strong></p>
+<div class="hl"><b>「生态城唯一一家齐齐哈尔炭火烤肉，围着炭炉自己烤」</b><br>——比「更好吃的烤肉」更容易被记住。</div>
+<p style="margin-top:6px"><strong>但要警惕两件事：</strong></p>
+<ul>
+<li><b>烤串店抢的是「夜宵/撸串」场景</b>，喜炉要抢「家庭聚餐/朋友小聚」，别混在一起打；</li>
+<li><b>生态城还有度假区客流</b>（欢乐谷方向），周末家庭出游是增量，可以做「游玩+烤肉」的组合。</li>
+</ul>
+</div>
+
+<!-- 四 -->
+<div class="card">
+<div class="chapter"><span class="no">4</span><span class="t">老板的三个顾虑，正面回答</span></div>
+<p><strong>顾虑一：不信任代运营（杭州花3万，效果一般）</strong></p>
+<p>这个顾虑非常合理。上次花的3万，问题不在钱多钱少，在于——<b>买的是「不确定的结果」，中间过程看不见</b>。</p>
+<div class="hl"><b>这次的做法不一样：</b>6000块不承诺「帮你涨多少单」，而是承诺<b>每一步你都能在后台看见数据</b>。<br><br>拆成可验证的小目标：<br>第1个月 → 评分4.5+、评价30条<br>第2个月 → 评价60条、团购月销100单<br>第3个月 → 区域榜单进前3<br><br>每个月底你自己看后台核对，达不达标一目了然。</div>
+<p style="margin-top:8px"><strong>顾虑二：口味有信心，不需要那么多功能</strong></p>
+<p>口味好是<b>必要条件，不是充分条件</b>。杭州店能攒下74道推荐菜，靠的不只是口味，还有<b>点评评价、达人传播、回头客</b>——这些都是「系统+运营」在背后支撑的。</p>
+<p style="margin-top:6px"><strong>顾虑三：200平变100平，人群不一样</strong></p>
+<p>已在本方案第2章拆解：不是退步，是换赛道。100平做「质」，不做「量」。</p>
+</div>
+
+<!-- 五 -->
+<div class="card">
+<div class="chapter"><span class="no">5</span><span class="t">系统选型：一次性 vs 智能版</span></div>
+<p>老板在犹豫「线上卖一次性系统」还是「继续用智能版」。这个选择决定的不只是收银，是<b>整个线上运营的地基</b>。</p>
+<table>
+<tr><th>能力</th><th>一次性系统</th><th>美团智能版</th></tr>
+<tr><td>收银对账</td><td>能用</td><td>能用</td></tr>
+<tr><td>团购核销</td><td>手动/对账麻烦</td><td><b>自动打通</b></td></tr>
+<tr><td>会员沉淀</td><td>需额外购买</td><td><b>自带</b></td></tr>
+<tr><td>扫码点餐</td><td>需额外购买</td><td><b>自带，可引导评价</b></td></tr>
+<tr><td>评价管理</td><td>无</td><td><b>有，可回复/看数据</b></td></tr>
+<tr><td>榜单/流量</td><td>无关联</td><td><b>与点评美团生态打通</b></td></tr>
+<tr><td>数据看板</td><td>只有流水</td><td><b>客流/复购/评价全链路</b></td></tr>
+<tr><td>代运营配合</td><td>数据拿不到</td><td><b>数据全打通</b></td></tr>
+</table>
+<div class="hl"><b>核心逻辑：</b>一次性系统解决的是「<b>怎么收钱</b>」，智能版解决的是「<b>怎么让更多人来、来了还来</b>」。<br><br>老板有信心的是口味，但口味要靠<b>评价、复购、榜单</b>才能变成生意——这恰恰是智能版能帮上的地方。</div>
+<p style="margin-top:8px"><strong>三个具体理由：</strong></p>
+<ul>
+<li><b>周边门店都用智能版</b>——团购核销、榜单、评价体系都在这个生态里，用一次性系统等于「自己开一条路」；</li>
+<li><b>代运营要数据</b>——没有智能版，代运营拿不到客流和复购数据，等于蒙着眼睛开车；</li>
+<li><b>杭州的教训</b>——上次3万块效果一般，很大程度是因为「数据不通、看不见过程」。智能版恰恰解决这个问题。</li>
+</ul>
+<div class="warn"><b>一句话总结：</b>一次性系统省钱，但省的是「看得见的钱」；智能版贵一点，买的是「看不见的流量和数据」。做口碑生意，后者更重要。</div>
+</div>
+
+<!-- 六 -->
+<div class="card">
+<div class="chapter"><span class="no">6</span><span class="t">产品与定价 · 客单从60拉到100+</span></div>
+<p><strong>1. 招牌产品（杭州验证过的，直接搬）</strong></p>
+<p>原店74道推荐菜里，这几个是核心：<b>齐齐哈尔秘制拌肉（106人推荐）、雪花胸口（50人）、肥牛酸菜（40人）、雪花肋排、东北家常凉菜</b>。</p>
+<div class="good"><b>建议：</b>把这几个「杭州验证过的高推荐菜」做成开业主推，菜单上标注「杭州店106人推荐」——这是最真实的信任状。</div>
+<p style="margin-top:8px"><strong>2. 套餐结构（拉客单的关键）</strong></p>
+<div class="price-grid">
+<div class="price-row"><span class="name">双人炭火烤肉套餐</span><span class="price">168-198元</span></div>
+<div class="price-row"><span class="name">四人家庭烤肉套餐</span><span class="price">328-388元</span></div>
+<div class="price-row"><span class="name">六人聚餐套餐</span><span class="price">488-568元</span></div>
+</div>
+<p style="margin-top:6px">套餐里必须含<b>秘制拌肉+雪花胸口+一份凉菜+主食</b>——把招牌菜打包进去，顾客不用纠结。</p>
+<p style="margin-top:8px"><strong>3. 引流品</strong></p>
+<ul>
+<li><b>9.9元秘制拌肉试吃份</b>（限堂食、满100可用、每桌1份）——让人先尝到招牌；</li>
+<li><b>1元东北大冷面/凉菜</b>（限堂食）——低成本制造「划算感」。</li>
+</ul>
+<p style="margin-top:8px"><strong>4. 团购3档（不贪多）</strong></p>
+<div class="price-grid">
+<div class="price-row"><span class="name">双人炭火烤肉套餐</span><span class="price">178元 <span class="old">(原价218)</span></span></div>
+<div class="price-row"><span class="name">四人家庭聚餐套餐</span><span class="price">358元 <span class="old">(原价428)</span></span></div>
+<div class="price-row"><span class="name">9.9元秘制拌肉券</span><span class="price">引流档 · 限堂食</span></div>
+</div>
+</div>
+
+<!-- 七 -->
+<div class="card">
+<div class="chapter"><span class="no">7</span><span class="t">点评运营 · 把杭州口碑搬过来</span></div>
+<div class="warn"><b>当前状态：</b>喜炉点评显示「尚未营业」，0评价0评分。开业前必须先把页面装修好。</div>
+<p style="margin-top:6px"><strong>1. 门店基建（开业前完成）</strong></p>
+<ul>
+<li>认领门店，补全店名、地址、电话、营业时间、人均；</li>
+<li><b>头图</b>：炭火烤肉滋滋冒油的特写，或围炉聚餐的场景图——不要用门头照；</li>
+<li>环境图8-10张：炭炉、肉品、座位区、小菜；</li>
+<li>菜单图完整上传，价格透明。</li>
+</ul>
+<p style="margin-top:8px"><strong>2. 用「杭州故事」建立信任</strong></p>
+<div class="hl"><b>这是喜炉独有的优势，一定要用：</b><br>在门店简介/头图/视频里讲清楚——<b>「我们在杭州开的齐齐哈尔炭火烤肉，大众点评74道菜被推荐，秘制拌肉106人推荐。现在回天津生态城，还是那口肉。」</b><br><br>这不是吹牛，是平台可查的数据，比任何广告都有说服力。</div>
+<p style="margin-top:8px"><strong>3. 评价积累节奏</strong></p>
+<table>
+<tr><th>阶段</th><th>目标</th><th>动作</th></tr>
+<tr><td>第1个月</td><td>30-40条</td><td>到店引导评价，收藏打卡送小菜</td></tr>
+<tr><td>第2个月</td><td>累计60-80条</td><td>二次到店券+评价有礼</td></tr>
+<tr><td>第3个月</td><td>稳定4.6+</td><td>复购客自然评价，冲区域榜单</td></tr>
+</table>
+<p style="margin-top:6px"><strong>合规攒分动作：</strong></p>
+<ul>
+<li><b>收藏打卡送小菜</b>：收藏门店+打卡，送一份东北家常凉菜/老虎菜，成本3-5元；</li>
+<li><b>评价有礼</b>：真实消费后评价，下次到店减10元（不指定好评、不返现）；</li>
+<li><b>扫码点餐页引导</b>：结账时服务员自然提一句「方便的话给个评价，我们刚从杭州过来，很需要本地口碑」。</li>
+</ul>
+</div>
+
+<!-- 八 -->
+<div class="card">
+<div class="chapter"><span class="no">8</span><span class="t">达人探店 · 杭州的经验直接复制</span></div>
+<p>老板说「杭州店达人主动给他宣传」——这说明<b>产品本身有内容价值</b>。天津这边要主动推一把。</p>
+<p style="margin-top:6px"><strong>1. 达人策略</strong></p>
+<ul>
+<li>开业期请<b>3-5个天津本地美食号</b>（粉丝1-10万，性价比最高）；</li>
+<li>置换方式：霸王餐+车马费（200-500元/条）；</li>
+<li>要求：出镜讲「炭火烤肉」「秘制拌肉」「杭州排队店老板回天津」，挂团购链接。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 内容角度（给达人参考）</strong></p>
+<ul>
+<li><b>故事向</b>：「杭州开了1年的烤肉店，老板回天津生态城重开」；</li>
+<li><b>产品向</b>：秘制拌肉腌料、雪花胸口纹理、炭火滋滋声；</li>
+<li><b>场景向</b>：「生态城终于有炭火烤肉了，家庭聚餐好去处」。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 抖音自运营（每周2-3条）</strong></p>
+<ul>
+<li><b>3秒公式</b>：「生态城这家烤肉，肉是现拌的」——前3秒必须出现肉/火/滋滋声；</li>
+<li>老板出镜讲肉、讲腌料、讲杭州故事（真实感最打动人）；</li>
+<li>DOU+投本地3-5公里，每条100-200元测试。</li>
+</ul>
+</div>
+
+<!-- 九 -->
+<div class="card">
+<div class="chapter"><span class="no">9</span><span class="t">私域与复购 · 100平店的生命线</span></div>
+<p><strong>逻辑：</strong>100平桌数少，靠「新客」撑不住，必须靠「复购」。生态城社区客+度假区回头客，是最稳定的基本盘。</p>
+<p style="margin-top:6px"><strong>1. 建群钩子</strong></p>
+<ul>
+<li>店内桌卡：「扫码进喜炉烤肉福利群，每周三会员日全场8.8折」；</li>
+<li>结账时：「加微信进群，下次来送一份秘制拌肉」。</li>
+</ul>
+<p style="margin-top:6px"><strong>2. 群运营三件套</strong></p>
+<ul>
+<li><b>周三会员日</b>：群友全场8.8折（不与其他优惠同享）；</li>
+<li><b>周末预订提醒</b>：每周四群内发「周末炭炉有限，提前订位」，把预订做成习惯；</li>
+<li><b>新品试吃</b>：每月1次新品免费试吃（限10人），换真实反馈。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 会员储值</strong></p>
+<div class="price-grid">
+<div class="price-row"><span class="name">充300送50</span><span class="price">尝鲜档</span></div>
+<div class="price-row"><span class="name">充500送100</span><span class="price">主力档</span></div>
+<div class="price-row"><span class="name">充1000送250</span><span class="price">深度客</span></div>
+</div>
+<p style="margin-top:6px"><b>规则写清楚：</b>余额随时可退、可转赠，印在卡背面——透明换信任。</p>
+</div>
+
+<!-- 十 -->
+<div class="card">
+<div class="chapter"><span class="no">10</span><span class="t">100平小店的翻台与预订</span></div>
+<p><strong>核心矛盾：</strong>100平桌数少，烤肉又吃得久（1.5-2小时），晚市黄金时段最多翻2轮。<b>解决靠预订，不靠等待。</b></p>
+<p style="margin-top:6px"><strong>1. 桌型配置建议</strong></p>
+<table>
+<tr><th>桌型</th><th>数量建议</th><th>说明</th></tr>
+<tr><td>4人桌</td><td>6-8桌</td><td>主力，家庭客/朋友小聚</td></tr>
+<tr><td>2人桌</td><td>2-3桌</td><td>情侣/小聚，可拼桌</td></tr>
+<tr><td>6-8人桌</td><td>1-2桌</td><td>聚餐，需提前预订</td></tr>
+</table>
+<p style="margin-top:6px"><strong>2. 预订机制</strong></p>
+<ul>
+<li><b>晚市两轮制</b>：17:30-19:30 / 19:45-21:45，预订时明确告知时段；</li>
+<li><b>群内预订优先</b>：群友提前订位，享优先安排；</li>
+<li><b>超时提醒</b>：第一轮结束前15分钟友好提醒，避免下轮顾客等待。</li>
+</ul>
+<p style="margin-top:6px"><strong>3. 提高翻台的小技巧</strong></p>
+<ul>
+<li>上菜快：小菜、凉菜提前备好，下单即上；</li>
+<li>炭炉预热：客人到桌前炭火已旺，不用等；</li>
+<li>结账快：扫码点餐+在线支付，减少结账等待。</li>
+</ul>
+</div>
+
+<!-- 十一 -->
+<div class="card">
+<div class="chapter"><span class="no">11</span><span class="t">开业节奏 · 分四周推进</span></div>
+<div class="timeline">
+<div class="tl-item"><span class="dot"></span><div class="time">开业前10天 · 打地基</div><div class="desc">点评门店认领+装修（头图/环境图/菜单/杭州故事）；团购3档上架；收银系统装好、扫码点餐调通；建福利群；确定桌型和预订规则。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">开业前5天 · 蓄水</div><div class="desc">小区海报/电梯广告；生态城周边地推（发试吃券）；群内预告开业活动；抖音发3条预热（备肉、炭炉、倒计时）；达人探店档期敲定。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">开业第1周 · 引爆</div><div class="desc">9.9元秘制拌肉券；1元凉菜；储值免单（限每日前10桌）；到店全量引导评价（目标20条）；达人视频陆续上线。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">第2-4周 · 稳复购</div><div class="desc">评价攒到40条；储值卡推广（充500送100）；周三会员日跑起来；周末预订机制形成；第二次到店券发出；抖音稳定周更。</div></div>
+<div class="tl-item"><span class="dot"></span><div class="time">第2-3个月 · 上轨道</div><div class="desc">评分稳定4.6+；冲生态城烤肉区域榜单；复购率25%+；开始接家庭聚餐/生日预订；复盘数据定下季度打法。</div></div>
+</div>
+</div>
+
+<!-- 十二 -->
+<div class="card">
+<div class="chapter"><span class="no">12</span><span class="t">营收测算 · 100平店的账</span></div>
+<table>
+<tr><th>时段</th><th>桌数</th><th>桌均</th><th>营收</th></tr>
+<tr><td>午市</td><td>6-10桌</td><td>180元</td><td>1080-1800元</td></tr>
+<tr><td>晚市（2轮）</td><td>14-20桌</td><td>260元</td><td>3640-5200元</td></tr>
+<tr><td><b>合计</b></td><td>—</td><td>—</td><td><b>4700-7000元/日</b></td></tr>
+</table>
+<p style="margin-top:6px"><strong>月度测算：</strong>按日均5000元计，月营收约<b>15万元</b>；烤肉毛利率约55-60%，月毛利约<b>8.2-9万元</b>。扣除房租（100平底商按1-1.5万/月）、人工（4-5人约2-2.5万）、食材损耗、水电，<b>月净利目标 2.5-4万元</b>。</p>
+<p style="margin-top:6px"><strong>关键变量：</strong></p>
+<ul>
+<li><b>客单价</b>：靠套餐结构从60拉到100+，这是净利翻倍的关键；</li>
+<li><b>晚市翻台</b>：预订制做好，晚市能做到2轮就是满负荷；</li>
+<li><b>复购率</b>：社区客复购做到25%以上，营收就稳了。</li>
+</ul>
+</div>
+
+<!-- 十三 -->
+<div class="card">
+<div class="chapter"><span class="no">13</span><span class="t">代运营 · 6000块怎么花得值</span></div>
+<p>老板上次花3万觉得「也就那样」，这次6000块，要做出「看得见的效果」。</p>
+<p style="margin-top:6px"><strong>1. 明确边界（先说清楚做什么、不做什么）</strong></p>
+<table>
+<tr><th>做</th><th>不做</th></tr>
+<tr><td>点评门店装修、内容策划</td><td>不承诺「保证涨多少单」</td></tr>
+<tr><td>团购上架与优化</td><td>不刷单、不刷好评</td></tr>
+<tr><td>达人探店对接</td><td>不代做菜品研发</td></tr>
+<tr><td>数据复盘与建议</td><td>不代管后厨/服务</td></tr>
+<tr><td>活动策划与执行</td><td>不承担食材成本</td></tr>
+</table>
+<p style="margin-top:8px"><strong>2. 可验证的三个里程碑</strong></p>
+<div class="hl">
+<b>第1个月：</b>评分4.5+、评价30条、团购上线3档<br>
+<b>第2个月：</b>评价60条、团购月销100单、达人视频3条上线<br>
+<b>第3个月：</b>区域榜单进前3、复购率20%+
+</div>
+<p style="margin-top:8px"><strong>3. 透明化机制（解决信任问题）</strong></p>
+<ul>
+<li>每月一份<b>数据报告</b>：客流、评价、团购、榜单排名，全部截图；</li>
+<li>老板可随时登录后台查看，不用等汇报；</li>
+<li>每月一次<b>面对面复盘</b>：哪些有效、哪些没效，下月怎么调。</li>
+</ul>
+<div class="good"><b>核心承诺：</b>不画饼。6000块买的是「有人帮你把线上这套跑起来」，不是「保证你发财」。效果好不好，数据说话。</div>
+</div>
+
+<!-- 十四 -->
+<div class="card">
+<div class="chapter"><span class="no">14</span><span class="t">风险与应对</span></div>
+<table>
+<tr><th>风险</th><th>应对</th></tr>
+<tr><td>天津没人知道这家店</td><td>用「杭州74道推荐菜」做信任状，达人+抖音快速建立认知</td></tr>
+<tr><td>100平桌少，翻台压力大</td><td>预订制+两轮制，提高黄金时段利用率</td></tr>
+<tr><td>周边烤串店分流</td><td>差异化在「炭火桌烤+家庭聚餐」，不抢夜宵撸串场景</td></tr>
+<tr><td>客单价拉不上去</td><td>套餐组合+招牌菜打包，用「值」而不是「贵」说服</td></tr>
+<tr><td>老板对代运营没信心</td><td>透明化+可验证里程碑，每月数据报告</td></tr>
+<tr><td>开业活动让利过大</td><td>设每日限量+总额上限，盯紧毛利</td></tr>
+</table>
+</div>
+
+<!-- 十五 -->
+<div class="card">
+<div class="chapter"><span class="no">15</span><span class="t">下一步 · 本周先做三件事</span></div>
+<div class="hl"><b>1. 系统定下来：</b>用智能版。理由很简单——代运营要数据、团购要打通、评价要管理，一次性系统这三样都做不到。周边门店都用智能版，这不是巧合。</div>
+<div class="hl"><b>2. 点评门店装修：</b>现在显示「尚未营业」，先把店名、地址、头图、菜单、杭州故事补齐，让顾客搜得到、看得见、敢进来。</div>
+<div class="hl"><b>3. 桌型和预订规则定死：</b>100平放几张桌、晚市分几轮、怎么预订——这三样定完，开业就能跑起来。</div>
+</div>
+
+<div class="final-card">
+<p>杭州那家店，你已经证明过一次</p>
+<p>天津这家，只是换个地方再证明一次</p>
+<div class="sub">口味是底牌 · 数据是工具 · 口碑是结果</div>
+</div>
+
+<div class="sign">
+本方案为门店运营参考方案 · 出品：美团·苏苏<br>
+所有运营动作均遵循平台规则
+</div>
+
+</div>
+</body>
+</html>
